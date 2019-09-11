@@ -96,8 +96,15 @@ export default createMuiTheme({
         }
       },
       MuiButton : {
-        containedPrimary :{ '&:hover' : {
-          backgroundColor : '#2683e0'
+        contained : {
+          '&:hover' : {
+            backgroundColor : '#61A9F5'
+  
+          },
+        },
+        containedPrimary :{ 
+          '&:hover' : {
+          backgroundColor : '#61A9F5'
         }}
       },
       MuiSvgIcon :{
