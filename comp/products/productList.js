@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withStyles } from "@material-ui/styles";
 import Grid from "@material-ui/core/Grid";
-import Post from './post';
+import Product from './product';
 import Sidebar from './sidebar';
 const styles = theme =>({
     chart_header : {
@@ -11,7 +11,7 @@ const styles = theme =>({
         color : 'grey'
     }
 })
-class Blog extends Component {
+class ProductList extends Component {
     render (){
         const posts = [
             {
@@ -85,7 +85,7 @@ class Blog extends Component {
                             <Grid items xs={7} xs={4} ><p className={classes.chart_header}>Description</p></Grid>
                         </Grid>
                         {posts.map(post =>(
-                            <Post info={post} />
+                            <Product info={post} />
                         ))}
                     </Grid>
                     <Grid items xs={4}>
@@ -97,4 +97,4 @@ class Blog extends Component {
         )
     }
 }
-export default withStyles(styles)(Blog)
+export default withStyles(styles)(ProductList)

@@ -69,7 +69,7 @@ const styles = theme =>({
 
     }
 })
-class Post extends Component {
+class Product extends Component {
     render (){
         const {classes} = this.props;
         const info = this.props.info
@@ -97,4 +97,4 @@ class Post extends Component {
         )
     }
 }
-export default withStyles(styles)(Post)
+export default withStyles(styles)(Product)
