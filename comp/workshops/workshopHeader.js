@@ -46,6 +46,8 @@ const styles = theme =>({
         width : '200px',
         height : '50px',
         borderRaduis : '5px',
+        background : '#0a57a9',
+        color : 'white'
        
     }
     

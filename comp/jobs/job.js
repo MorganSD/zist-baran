@@ -9,7 +9,9 @@ const styles = theme =>({
         minHeight : '200px',
         margin : '20px 0',
         borderRadius : '3px',
-        overflow : 'hidden'
+        overflow : 'hidden',
+        marginRight: 'calc(25% - 200px)'
+
     },
     header : {
         width : '100%',

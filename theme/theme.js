@@ -96,6 +96,12 @@ export default createMuiTheme({
         }
       },
       MuiButton : {
+        root : {
+          '&:hover' : {
+            backgroundColor : '#61A9F5'
+
+          }
+        },
         contained : {
           '&:hover' : {
             backgroundColor : '#61A9F5'

@@ -15,11 +15,11 @@ class Main extends Component {
       <React.Fragment>
         <Layout>
           {/* <ServiceWrapper/> */}
-          {/* <WorkshopWrapper/> */}
+          <WorkshopWrapper/>
           {/* <Calender /> */}
           {/* <ProductList /> */}
           {/* <JobWrapper /> */}
-          <Blog />
+          {/* <Blog /> */}
         </Layout>
       </React.Fragment>
     );
