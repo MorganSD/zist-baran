@@ -37,7 +37,7 @@ class Service extends Component{
             <Grid item xs={3} className={classes.root} >
                 <img src={'../../static/images/Group970.png'} className={classes.img}/>
                 <h3>{service.title}</h3>
-                <p className={classes.description}>{service.description}</p>
+                <p className={classes.description}>{service.body}</p>
 
             </Grid>
         )
